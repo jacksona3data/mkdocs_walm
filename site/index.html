@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Dashboard Alocação - Documentação</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Dashboard Alocação - Documentação</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#bem-vindoa" class="nav-link">Bem vindo(a)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#glossario" class="nav-link">Glossário</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#definicoes" class="nav-link">Definições</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#consumo-de-dados" class="nav-link">Consumo de dados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#dashboards" class="nav-link">Dashboards</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#link-para-acesso" class="nav-link">Link para acesso</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="bem-vindoa">Bem vindo(a)</h1>
+<p>Neste arquivo, é mantida a documentação do projeto Dashboard Alocação, desenvolvido em parceria entre a <a href="https://a3data.com.br/">A3Data</a> e a <a href="https://a3data.com.br/">Walm Engenharia</a>.</p>
+<p>A sua esquerda se encontra o menu das atividades desenvolvidas, como dashboards,  explicações sobre arquitetura utilizada, tecnologias, entre outros itens fundamentais para o sucesso do projeto.</p>
+<p>Nesta documentação iremos apresentar:</p>
+<ul>
+<li>Glossário</li>
+<li>Definições</li>
+<li>Consumo de dados</li>
+<li>Dashboards desenvolvidos</li>
+</ul>
+<p>Entre em contato 📫</p>
+<p>Em caso de dúvidas sobre a documentação, termos técnicos, ambiguidades, grafias incorretas ou quaisquer problemas com este documento, por favor, entre em contato via e-mail  <strong>eduardo.magalhaes@walmengenharia.com.br</strong></p>
+<h2 id="glossario">Glossário</h2>
+<ul>
+<li>
+<p><strong>Alocação:</strong>
+Atribuição de mão de obra a tarefas ou finalidades específicas dentro do projeto/obra de engenharia para garantir que os recursos sejam usados de forma eficiente a fim de atender os objetivos e necessidades da organização dentro do projeto em execução.</p>
+</li>
+<li>
+<p><strong>BI:</strong> 
+Business Intelligence, conjunto de metodologias, processos e fluxos que junto da tecnologia faz com que os dados e informações resultem em estratégias para otimizar empresas e negócios.</p>
+</li>
+<li>
+<p><strong>Classe:</strong>
+É a categorização de um funcionário dentro de uma organização dentro de uma determinada posição. Existem, basicamente, (inserir qtde) classes de senioridade a serem consideradas no contexto do projeto elaborado: Júnior, Pleno, Sênior e Master. Outras classes, em paralelo, também foram consideradas para categorizar perfis de colaboradores que estão em treinamento ou desenvolvimento profissional dentro da empresa, como Estagiários e Trainees.</p>
+</li>
+<li>
+<p><strong>Dashboard:</strong>
+É um tipo de interface gráfica de usuário que geralmente fornece visualizações rápidas dos
+principais indicadores de desempenho relevantes para um determinado objetivo ou processo
+de negócios.</p>
+</li>
+<li>
+<p><strong>QQP:</strong>
+Refere-se ao Quadro de Quantidade de Preços, usado em engenharia e construção, para descrever um detalhamento de itens, quantidade de preços associados a um projeto de construção. É uma parte fundamental do processo de orçamento e estimativa de custos.</p>
+</li>
+<li>
+<p><strong>TT:</strong>
+Se refere a um período total de um ano, começando no início do ano (em janeiro) e terminando em dezembro. </p>
+</li>
+<li>
+<p><strong>Year to date (YTD):</strong>
+Se refere a um período que começa no início do ano (em janeiro) e termina na data em que um relatório financeiro ou contábil é finalizado, como se fosse a expressão “do começo do ano até hoje” ou “acumulado do ano”.</p>
+</li>
+</ul>
+<h2 id="definicoes">Definições</h2>
+<h4 id="partes-envolvidas">Partes envolvidas</h4>
+<ul>
+<li>
+<p><strong>Walm Engenharia</strong>
+A WALM BH Engenharia é uma empresa de reconhecido destaque no mercado, atuando nas áreas de Engenharia Geotécnica, Hidrologia, Hidráulica e Geologia. Atualmente, atende segmentos estratégicos e econômicos, como os de Mineração, Manufatura, Infraestrutura, Energia, Óleo e Gás, e Saneamento.
+A WALM possui uma equipe técnica multidisciplinar, formada por engenheiros civis, geólogos, geógrafos, engenheiros ambientais, projetistas e desenhistas, amplamente capacitada, qualificada, com experiência prática e formação acadêmica adquiridas no Brasil e no exterior. No seu quadro técnico a empresa conta com especialistas, mestres e doutores e profissional com certificação QP/CP (Qualified Person/Competent Person) em Geotecnia pelo AusIMM – Australasian Institute of Mining and Metallurgy, para atendimento às normas JORC e NI 43-101.</p>
+</li>
+<li>
+<p><strong>A3 Data</strong>
+A A3Data é uma empresa especializada em projetos de Transformação Digital, Analytics e Inteligência Artificial, podendo contribuir de forma muito estratégica para os objetivos de seus parceiros. </p>
+</li>
+</ul>
+<h4 id="equipe-do-projeto">Equipe do Projeto</h4>
+<table>
+<thead>
+<tr>
+<th>Função</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sponsor</td>
+<td>André Simão (Walm)</td>
+</tr>
+<tr>
+<td>Product Owner (PO)</td>
+<td>Pollyani Cristina de Oliveira e João Marcelo (Walm)</td>
+</tr>
+<tr>
+<td>Analistas De Dados</td>
+<td>Samuel Vilela e  Jackson Nascimento (A3Data)</td>
+</tr>
+<tr>
+<td>Líder De Projeto</td>
+<td>Ana Luísa Dos Santos Alves (A3Data)</td>
+</tr>
+<tr>
+<td>CSM</td>
+<td>Flávia Almeida (A3Data)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="software-escolhido">Software escolhido</h4>
+<p>O software escolhido para o desenvolvimento dos dashboards de interesse foi o <a href="https://powerbi.microsoft.com/pt-br/">Power BI</a>. O Power BI é uma plataforma de business intelligence (BI) desenvolvida pela Microsoft que permite aos usuários visualizar, analisar e compartilhar dados de forma interativa. Ele é uma ferramenta poderosa para transformar dados brutos em informações úteis, painéis de controle interativos e relatórios visuais.
+O Power BI é amplamente utilizado em organizações para análises de dados, geração de relatórios, monitoramento de desempenho e tomada de decisões baseadas em dados. Ele é adequado para uma ampla gama de setores e pode ser usado por analistas de dados, profissionais de negócios e tomadores de decisão. É uma ferramenta versátil que pode transformar dados em insights acionáveis.</p>
+<h2 id="consumo-de-dados">Consumo de dados</h2>
+<h2 id="dashboards">Dashboards</h2>
+<h5 id="1-visao-gestao">1. Visão Gestão</h5>
+<p>O painel de Gestão oferece uma análise abrangente e visual do planejamento e controle de horas vendidas, alocadas e disponibilizadas por cargo para que se tenha um monitoramento e controle contínuo do progresso dos projetos em relação ao cronograma elaborado para realização das atividades.
+Além desse objetivo central, o painel tem como objetivo secundário fazer o acompanhamento da distribuição de horas alocadas em cada projeto, o quantitativo apontado pelos colaboradores envolvidos, valor percentual de disponibilidade de cada equipe e o comparativo de horas vendidas e alocadas em determinado intervalo de tempo.
+Representação Visual</p>
+<p>A Figura (inserir número) mostra o layout do painel de Visão de Gestão. </p>
+<p><img alt="Visao Gestao" src="img/GESTAO.png" />
+<center>Figura (inserir número) - Layout Painel Visão de Gestão</center></p>
+<p>Ele utiliza gráficos e métricas para apresentar as seguintes informações:</p>
+<ul>
+<li><strong>Horas Vendidas -</strong> representa todas as horas vendidas(QQP) que estão vinculadas a um projeto (cronograma).</li>
+<li><strong>Horas Alocadas -</strong> representa todas as horas vendidas que estão vinculadas a projetos com colaboradores.</li>
+<li><strong>Horas Disponíveis -</strong> disponibilidade de trabalho do time técnico, representando todas as horas disponíveis dos colaboradores técnicos ativos.</li>
+<li><strong>Horas Apontadas -</strong> horas registradas pelos colaboradores em cada projeto trabalhado.</li>
+<li><strong>Total de Colaboradores -</strong> número de recursos disponíveis para alocar em projetos.</li>
+<li><strong>Percentual de horas vendidas com alocação -</strong> representa, percentualmente, a proporção das horas vendidas com alocação de colaborador por projeto em relação ao total de horas vendidas em projetos.</li>
+<li><strong>Percentual de disponibilidade de alocação vendida -</strong> representa, percentualmente, a proporção das horas vendidas com colaboradores alocados em projetos em relação às horas disponíveis pelo RH, expressa como um percentual.</li>
+<li><strong>Percentual de disponibilidade de alocação por cargo -</strong> permite visualizar a disponibilidade de cada cargo técnico para possíveis alocações.</li>
+<li><strong>Percentual de disponibilidade por apontamento -</strong> representa, percentualmente, a proporção das horas apontadas (realizadas) por projeto em relação às horas disponíveis pelo RH, expressa como um percentual.</li>
+<li><strong>Comparação de horas por mês -</strong>  permite a visualização da evolução dos indicadores no período conforme seleção de data.</li>
+</ul>
+<h5 id="filtros-interativos">Filtros interativos</h5>
+<p>Para uma análise mais personalizada, oferecemos filtros interativos que permitem aos usuários selecionar um período específico e características do colaborador envolvido no projeto. Isso permite explorar os dados em detalhes e responder a perguntas específicas. Estão dentro das possibilidades de filtro as seguintes informações:</p>
+<ul>
+<li>Período (Data)</li>
+<li>Gestor do projeto</li>
+<li>Colaborador</li>
+<li>Setor de atuação</li>
+<li>Classe de senioridade</li>
+</ul>
+<h5 id="funcionalidades-extras">Funcionalidades extras</h5>
+<p>Além dos gráficos e métricas para análises assertivas em relação aos projetos em execução, o painel de Gestão possui duas funcionalidades extras:</p>
+<ul>
+<li><strong>Filtro de Limpeza Geral -</strong> Botão que permite a limpeza de todos os filtros escolhidos ao longo da análise feita pelo usuário</li>
+<li><strong>Painel de Ajuda -</strong> A tela auxiliar de ajuda, mostrada na Figura (inserir número),  permite que o usuário verifique algumas definições importantes a respeito dos gráficos e métricas calculados, assim como as variáveis utilizadas nos cálculos realizados.
+<img alt="Visao Help" src="img/GESTAO_HELP.png" />
+<center>Figura (inserir número) - Tela auxiliar de ajuda</center></li>
+</ul>
+<h5 id="2-visao-colaborador">2. Visão Colaborador</h5>
+<p>O painel do Colaborador oferece uma análise mais específica sobre o status de alocação do colaborador por cargo exercido. O principal objetivo dessa visão é possibilitar a verificação de disponibilidade de horas de um colaborador com base nas horas vendidas em determinado projeto que ele atua. 
+Além desse objetivo central, o painel tem como objetivos secundários verificar a quantidade de colaboradores envolvidos no projeto filtrado, valor de horas apontadas e disponíveis no RH, quantitativo de horas alocadas no projeto que estão sem colaborador e o total de horas vendidas.</p>
+<h5 id="representacao-visual">Representação Visual</h5>
+<p>A Figura (inserir número) mostra o layout do painel de visão do colaborador.
+<img alt="Visao Colaborador" src="img/COLABORADOR.png" />
+<center>Figura (inserir número correspondente) -  Layout Painel Visão por Colaborador</center></p>
+<p>O painel possui, como informação principal,  uma tabela que oferece uma visão granular (a nível de senioridade por cargo disponível no RH ) das informações, permitindo que seja explorado os números em detalhes por cada colaborador, como a quantidade de colaboradores por senioridade, o valor de horas que foram vendidas e alocadas no projeto, a quantidade de horas que foram apontadas até a última data de atualização do Project Union, quantidade de horas que foram alocadas no projeto e estão sem colaborador e o total de horas que foram vendidas.</p>
+<h5 id="indicadores">Indicadores</h5>
+<p>O Percentual de disponibilidade de Alocação com Base nas Horas que foram vendidas em cada projeto é um indicador sinalizado no painel como um farol de sinalização. Para a elaboração desse farol, as seguintes regras de negócio foram consideradas:
+<em>Para percentual de disponibilidade inferior a 0%, sinalizar farol em cor vermelha, representando uma super alocação;
+</em>Para percentual de disponibilidade superior a 50%, sinalizar farol em cor amarela, representando uma alta disponibilidade;
+*Para percentual de disponibilidade entre 0% e 50 %, sinalizar farol em cor verde, representando o cenário ideal de alocação.</p>
+<h5 id="filtros-interativos_1">Filtros interativos</h5>
+<p>Para uma análise mais personalizada, oferecemos filtros interativos que permitem aos usuários selecionar um período específico e características do colaborador envolvido no projeto. Isso permite explorar os dados em detalhes e responder a perguntas específicas. Estão dentro das possibilidades de filtro as seguintes informações:</p>
+<ul>
+<li>Período (Data)</li>
+<li>Gestor do projeto</li>
+<li>Colaborador</li>
+<li>Setor de atuação</li>
+<li>Classe de senioridade</li>
+</ul>
+<h5 id="3-visao-projeto">3. Visão Projeto</h5>
+<p>A visão de Projeto oferece uma análise mais detalhada sobre índices e características do projeto. O principal objetivo dessa visão é permitir a visualização do percentual de alocação em cada projeto. Além disso, é possível analisar quais colaboradores estão envolvidos no projeto, quanto da alocação vendida de cada colaborador já foi consumida e o quantitativo de horas que foram alocadas no projeto, porém estão sem alocação.</p>
+<h5 id="representacao-visual_1">Representação Visual</h5>
+<p>A Figura (inserir número) mostra o layout do painel de visão por projeto.
+<img alt="Visao Projeto" src="img/PROJETO.png" />
+<center>Figura (inserir número correspondente) -  Layout Painel Visão Projeto</center></p>
+<p>Ele utiliza gráficos e métricas para apresentar as seguintes informações:</p>
+<ul>
+<li><strong>Percentual de Alocação por projeto -</strong> informa o percentual de horas que foram vendidas no projeto e estão alocadas com colaborador</li>
+<li><strong>Percentual de Alocação por período -</strong> gráfico que informa, em uma faixa de tempo pré-selecionada, o percentual de alocação das horas que foram vendidas no projeto com colaborador e o percentual que está pendente de colaborador para preenchimento de alocação.</li>
+<li><strong>Alocação Vendida por perfil -</strong> tabela que informa, de forma granular, a divisão dos perfis alocados e vendidos por projeto, mostrando por nível de senioridade de colaboradores alocados, o percentual de alocação vendida por colaborador, quanto do perfil está alocado com colaborador e quanto, percentualmente, está alocado sem colaborador.</li>
+<li><strong>Alocação Vendida por projeto -</strong> gráfico que informa o percentual atual, por projeto, de alocação vendida com colaborador e o percentual com alocação pendente. </li>
+<li><strong>Horas Alocadas no cronograma -</strong> Quantitativo de horas do projeto que estão alocadas no cronograma.</li>
+<li><strong>Horas de perfil sem colaborador alocado -</strong> Quantitativo de horas que foram vendidas no projeto, mas que estão sem colaborador alocado.</li>
+</ul>
+<h5 id="filtros-interativos_2">Filtros interativos</h5>
+<p>Para uma análise mais personalizada, oferecemos filtros interativos que permitem aos usuários selecionar um período específico e características do colaborador envolvido no projeto. Isso permite explorar os dados em detalhes e responder a perguntas específicas. Estão dentro das possibilidades de filtro as seguintes informações:</p>
+<ul>
+<li>Período (Data)</li>
+<li>Número do projeto</li>
+<li>Líder do projeto</li>
+<li>Facilitador</li>
+<li>Colaborador</li>
+<li>Setor de atuação</li>
+<li>Classe de senioridade</li>
+</ul>
+<h5 id="4-visao-analitica-por-projeto">4. Visão Analítica por Projeto</h5>
+<p>A visão Analítica por Projeto oferece uma análise mais detalhada sobre os projetos em andamento da empresa, em uma determinada faixa de tempo. Isso possibilita que o usuário possa analisar em determinado período de tempo algumas informações relevantes do projeto que atua ou lidera, com relação às horas apontadas, vendidas e alocadas.
+Representação Visual</p>
+<p>A Figura (inserir número) mostra o layout do painel de visão por projeto.
+<img alt="Visao Analitica Projeto" src="img/ANALITICA_PROJETO.png" />
+<center>Figura (inserir número correspondente) -  Layout Painel Visão Analítica por Projeto</center></p>
+<p>O painel possui, como informação principal, uma tabela que oferece uma visão granular (a nível de senioridade por cargo disponível no RH ) das informações de horas de cada projeto, permitindo que seja explorado os números em detalhes, por cada colaborador, de horas vendidas, apontadas e alocadas.
+A cada nível da tabela, é possível analisar em cada projeto a quantidade de horas vendidas, alocadas com colaborador e apontadas para cada setor, classe de senioridade e colaborador em específico.</p>
+<h5 id="filtros-interativos_3">Filtros interativos</h5>
+<p>Para uma análise mais personalizada, oferecemos filtros interativos que permitem aos usuários selecionar um período específico e características do projeto. Isso permite explorar os dados em detalhes e responder a perguntas específicas. Estão dentro das possibilidades de filtro as seguintes informações:</p>
+<ul>
+<li>Período (Data)</li>
+<li>Número do projeto</li>
+<li>Líder do projeto</li>
+<li>Facilitador</li>
+<li>Colaborador</li>
+<li>Setor de atuação</li>
+<li>Classe de senioridade</li>
+</ul>
+<h5 id="5-classe-vendida-x-classe-rh">5. Classe Vendida x Classe RH</h5>
+<p>A visão Classe Vendida x Classe RH oferece uma análise comparativa entre o quantitativo de alocação de horas vendidas por cargo determinado na QQP e a alocação de cargo correspondente no RH. Além disso, é possível observar, percentualmente, a quantidade de alocação de cada classe de senioridade por projeto.
+Representação Visual</p>
+<p>A Figura (inserir número) mostra o layout do painel de visão por projeto.</p>
+<p><img alt="Visao Classe RH" src="img/CLASSE%20VENDIDA.png" />
+<center>Figura (inserir número correspondente) -  Layout Painel Classe Vendida x Classe RH</center></p>
+<p>Ele utiliza gráficos e métricas para apresentar as seguintes informações:</p>
+<ul>
+<li><strong>Alocação vendida por cargo QQP -</strong> informa a quantidade de horas vendidas por cada cargo na QQP</li>
+<li><strong>Alocação por cargo RH -</strong> informa a quantidade de horas disponíveis por cada cargo no RH</li>
+<li><strong>Comparação Alocação Vendida Classe QQP por Classe RH -</strong> informa um comparativo percentual entre a quantidade de horas vendidas na QQP e disponíveis no RH para cada senioridade de cada cargo disponível.</li>
+</ul>
+<h5 id="filtros-interativos_4">Filtros interativos</h5>
+<p>Para uma análise mais personalizada, oferecemos filtros interativos que permitem aos usuários selecionar um período específico e características do projeto. Isso permite explorar os dados em detalhes e responder a perguntas específicas. Estão dentro das possibilidades de filtro as seguintes informações:</p>
+<ul>
+<li>Período (Data)</li>
+<li>Número do projeto</li>
+<li>Cargo disponível no RH</li>
+<li>Classe de senioridade</li>
+</ul>
+<h5 id="6-glossario">6. Glossário</h5>
+<p>O Painel de glossário, mostrado na Figura (inserir número correto, é uma visão tabelar que permite auxiliar o usuário com a denominação de alguns campos do dashboard de alocação como um todo. Nele é possível entender qual o tipo de indicador foi criado, a tipagem do valor encontrado, a fonte utilizada para realização do cálculo e as colunas das tabelas de dados utilizadas para criação das medidas.</p>
+<p><img alt="Visao Glossario" src="img/GLOSSARIO.png" />
+<center>Figura (inserir número correspondente) -  Layout Painel Glossário</center></p>
+<p>É importante ressaltar que todas essas informações foram disponibilizadas de forma filtrada por painel. Assim, o processo de filtragem para entendimento das medidas calculadas se tornaria mais otimizado.</p>
+<h2 id="link-para-acesso">Link para acesso</h2>
+<p>Para explorar este dashboard e obter insights detalhados sobre a alocação, use o seguinte link: <a href="https://app.powerbi.com/Redirect?action=OpenApp&amp;appId=65223f2a-c526-4850-b942-07c696e745bf&amp;ctid=13f4fa63-d02e-4e99-a3fe-9b23b83e91ec">Power BI - Dashboard Alocação</a></p>
+<p>O acesso do dashboard, inicialmente, estará disponível apenas para os planejadores  devido a disponibilidade de licença na plataforma. </p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.5.3
+Build Date UTC : 2023-10-20 17:18:39.960031+00:00
+-->
